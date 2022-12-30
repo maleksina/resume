@@ -17,9 +17,10 @@ body {
 
 .list {
     font-size: 12px;
-    margin-left: 10px;
+    margin-left: 15px;
     list-style-type: circle;
     display: list-item;
+	width: 355px;
 }
 
 .name_bold {
@@ -146,6 +147,7 @@ body {
   content: "";
   display: table;
   clear: both;
+  padding: 10px 0;
 }
 
 .resume .resume_east .column_date{
@@ -154,7 +156,7 @@ body {
 
 .resume .resume_east .column_meat{
   float: left;
-  padding: 0 0 0 50px;
+  padding: 0 0 0 25px;
 }
 
 .resume .resume_east .bold {
