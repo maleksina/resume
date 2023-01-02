@@ -47,14 +47,6 @@ body {
   page-break-after: always;
 }
 
-/* Meant for Excellent, Very Good, Good, Intermediate, Basic */
-.skill_progress_status {
-  text-align: right;
-  text-align-last: right;
-  line-height: 3;
-}
-
-
 /* Any title spacing in resume */
 .resume .title {
   margin-bottom: 5px;
@@ -119,22 +111,6 @@ body {
 .resume .resume_west .resume_skills ul li .skill_name span {
   line-height: 1;
   width: 0;
-}
-
-.resume .resume_west .resume_skills ul li .skill_progress {
-  width: 100%;
-  margin: 0 0;
-  height: 5px;
-  background: #009fd9;
-  position: relative;
-}
-
-.resume .resume_west .resume_skills ul li .skill_progress span {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  background: #fff;
 }
 
 .resume .resume_east {
