@@ -16,11 +16,11 @@ body {
 }
 
 .list {
-    font-size: 12px;
-    margin-left: 15px;
-    list-style-type: circle;
-    display: list-item;
-	width: 355px;
+  font-size: 12px;
+  margin-left: 15px;
+  list-style-type: circle;
+  display: list-item;
+  width: 355px;
 }
 
 .name_bold {
@@ -37,6 +37,7 @@ body {
   font-weight: 500;
   font-size: 13.5px;
   color: #ffff;
+  line-height: 20px;
 }
 
 .resume {
@@ -49,7 +50,8 @@ body {
 
 /* Any title spacing in resume */
 .resume .title {
-  margin-bottom: 5px;
+  line-height: 25px;
+
 }
 
 /* West side of resume */
@@ -102,15 +104,10 @@ body {
 
 .resume .resume_west .resume_skills ul li {
   display: flex;
-  margin-bottom: 10px;
+  margin-bottom: 1px;
   color: #b1eaff;
   justify-content: space-between;
   align-items: center;
-}
-
-.resume .resume_west .resume_skills ul li .skill_name span {
-  line-height: 1;
-  width: 0;
 }
 
 .resume .resume_east {
