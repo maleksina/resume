@@ -40,6 +40,13 @@ body {
   line-height: 20px;
 }
 
+.small-title {
+  font-weight: 500;
+  font-size: 10px;
+  color: #ffff;
+  line-height: 20px;
+}
+
 .resume {
   width: 716px;
   height: 1046px;
@@ -82,6 +89,12 @@ body {
   padding: 20px 0;
   border-bottom: 1px solid #b1eaff;
 }
+
+.resume .resume_item_small {
+  padding: 10px 0;
+  border-bottom: 1px solid #b1eaff;
+}
+
 
 .resume .resume_west ul li {
   display: flex;
